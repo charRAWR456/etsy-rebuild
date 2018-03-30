@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-outline{
+  color: #ff6e1a;
+  border: 1px solid #ff6e1a;
+}
+
+.btn-search{
+  color: white;
+  background-color: #ff6e1a;
+}
