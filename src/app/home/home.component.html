@@ -2,9 +2,13 @@
 
 
 <div *ngFor="let item of items" (click)="goToDetailPage(item)" class="card card-default col">
+
+    <img class="card-img-top" src="./../assets/images/pic1.jpg" alt="Card image cap">
+
   <div class = "card-body">
-    <p><em>{{item.title}}</em> <br> {{item.shopName}}
-      <br><strong>{{item.price}}</strong></p>
-</div>
+    <p><em>{{item.title}}</em> <br><br><span class="text-muted"> {{item.shopName}}</span>
+      <br><strong><span id="item-price">{{item.price}}</span></strong></p>
+      </div>
+
 </div>
 </div>

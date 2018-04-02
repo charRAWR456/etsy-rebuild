@@ -1,0 +1,25 @@
+.cart-link{
+  border-left: 1px solid #ced4db;
+}
+
+.navbar-link{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+#cart-text-link{
+  font-size: 12px;
+}
+
+#nav-sign-on{
+margin-right: 10px;
+}
+
+.navbar{
+  border-bottom: 1px solid #ced4db;
+  background-color: white; 
+}
+
+.top-nav-link{
+  color: #ff6e1a;
+}
