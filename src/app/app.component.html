@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" routerLink=""><img src=".././assets/images/Etsy-Logo-home.png" height="24" width ="48" ></a>
+  <a class="navbar-brand" routerLink=""><img src=".././assets/images/Etsy-Logo-home.png" height="54" width ="90" ></a>
   <div class="input-group col-sm-4">
 
     <input class="form-control" id="search-bar" type="search" placeholder="Search for items or shops" aria-describedby="btnGroupAddon" aria-label="Search">
@@ -11,10 +11,10 @@
 
     <ul class="navbar-nav ml-auto">
       <li class="nav-item navbar-link">
-        <a class="nav-link top-nav-link" routerLink="sell">Sell on Etsy</a>
+        <a class="nav-link" id="top-nav-link" routerLink="sell">Sell on Etsy</a>
       </li>
-      <li class="nav-item navbar-link top-nav-link">
-        <a class="nav-link" routerLink="register">Register</a>
+      <li class="nav-item navbar-link">
+        <a class="nav-link" id="top-nav-link" routerLink="register">Register</a>
       </li>
       <li class="nav-item navbar-link">
       <button class="btn btn-outline my-2 my-sm-0" routerLink="sign-in" id="nav-sign-on">Sign In</button>
@@ -58,6 +58,6 @@
   </div>
 </nav>
   <div class="container">
-  
+
     <router-outlet></router-outlet>
   </div>

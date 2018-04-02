@@ -17,9 +17,9 @@ margin-right: 10px;
 
 .navbar{
   border-bottom: 1px solid #ced4db;
-  background-color: white; 
+  background-color: white;
 }
 
-.top-nav-link{
+#top-nav-link{
   color: #ff6e1a;
 }
