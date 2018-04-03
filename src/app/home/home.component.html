@@ -1,4 +1,5 @@
-<div class="col-9">
+<div class="row">
+<div class="col-8">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -23,12 +24,28 @@
   </a>
 </div>
 </div>
+<div class="col-4">
+
+
+<div class="card card-default">
+<img class = "card-img" src="./../assets/images/pets.jpg" >
+</div>
+<br>
+<div class="row">
+<div class="card card-default">
+<div class="card-body" id="pet-card">
+  Cute pets needs equally cute accessories >
+</div>
+</div>
+</div>
+</div>
+</div>
 <br>
 
   <div class="row">
-  <div class="col-4"><h6>Unique everything</h6><p>We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p></div>
-  <div class="col-4"><h6>Independent sellers</h6><p>Buy directly from someone who put their heart and soul into making something special.</p></div>
-  <div class="col-4"><h6>Secure shopping</h6><p>We use best-in-class technology to protect your transactions.</p></div>
+  <div class="col-4 etsy-promises"><h6><span class="check">✓</span> Unique everything</h6><p>We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p></div>
+  <div class="col-4 etsy-promises"><h6><span class="check">✓</span> Independent sellers</h6><p>Buy directly from someone who put their heart and soul into making something special.</p></div>
+  <div class="col-4 etsy-promises"><h6><span class="check">✓</span> Secure shopping</h6><p>We use best-in-class technology to protect your transactions.</p></div>
 </div>
 
 
@@ -36,12 +53,57 @@
 <div class="row">
 <div *ngFor="let item of items" (click)="goToDetailPage(item)" class="card card-default col">
 
-    <img class="card-img-top" src="./../assets/images/pic1.jpg" alt="Card image cap">
+    <img class="card-img-top" src="{{item.url}}" alt="Card image cap">
 
   <div class = "card-body" >
-    <p><em>{{item.title}}</em> <br><span class="text-muted"> {{item.shopName}}</span>
-      <br><strong><span id="item-price">{{item.price}}</span></strong></p>
+    <p id="card-item-name">{{item.title}} <br><span class="text-muted" id="card-shop-name"> {{item.shopName}}</span>
+      <br><strong><span id="card-item-price">{{item.price}}</span></strong></p>
       </div>
 
+</div>
+</div>
+<br>
+<h3 class="home-heading">Shop by category</h3>
+<div class="row">
+<div class="card card-default col">
+  <img class = "card-img-top" src="./../assets/images/home.jpg" >
+  <div class="card-body">
+    Home & Living
+  </div>
+</div>
+
+<div class="card card-default col">
+<img class = "card-img-top" src="./../assets/images/jewlery.jpg" >
+  <div class="card-body">
+    Jewelry
+  </div>
+</div>
+
+<div class="card card-default col">
+<img class = "card-img-top" src="./../assets/images/clothing.jpg" >
+  <div class="card-body">
+    Clothing
+  </div>
+</div>
+
+<div class="card card-default col">
+<img class = "card-img-top" src="./../assets/images/toys.jpg" >
+  <div class="card-body">
+    Toys & Games
+  </div>
+</div>
+
+<div class="card card-default col">
+<img class = "card-img-top" src="./../assets/images/craft.jpg" >
+  <div class="card-body">
+    Craft Supplies & Tools
+  </div>
+</div>
+
+<div class="card card-default col">
+<img class = "card-img-top" src="./../assets/images/weddings.jpg" >
+  <div class="card-body">
+    Weddings
+  </div>
 </div>
 </div>
