@@ -1,12 +1,8 @@
-
-
-
 <div class="col-9">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -27,16 +23,23 @@
   </a>
 </div>
 </div>
+<br>
+
+  <div class="row">
+  <div class="col-4"><h6>Unique everything</h6><p>We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p></div>
+  <div class="col-4"><h6>Independent sellers</h6><p>Buy directly from someone who put their heart and soul into making something special.</p></div>
+  <div class="col-4"><h6>Secure shopping</h6><p>We use best-in-class technology to protect your transactions.</p></div>
+</div>
 
 
-<h3>Recently viewed & more</h3>
+<h3 class="home-heading">Popular right now</h3>
 <div class="row">
 <div *ngFor="let item of items" (click)="goToDetailPage(item)" class="card card-default col">
 
     <img class="card-img-top" src="./../assets/images/pic1.jpg" alt="Card image cap">
 
-  <div class = "card-body">
-    <p><em>{{item.title}}</em> <br><br><span class="text-muted"> {{item.shopName}}</span>
+  <div class = "card-body" >
+    <p><em>{{item.title}}</em> <br><span class="text-muted"> {{item.shopName}}</span>
       <br><strong><span id="item-price">{{item.price}}</span></strong></p>
       </div>
 
