@@ -23,3 +23,8 @@ margin-right: 10px;
 #top-nav-link{
   color: #ff6e1a;
 }
+
+.second-nav-item:hover{
+  border-bottom: 2px solid #ff6e1a;
+  margin-bottom: 0px;
+}
