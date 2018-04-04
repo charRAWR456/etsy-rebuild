@@ -24,7 +24,7 @@ margin-right: 10px;
   color: #ff6e1a;
 }
 
-.second-nav-item:hover{
+.orange-hover:hover{
   border-bottom: 2px solid #ff6e1a;
   margin-bottom: 0px;
 }
