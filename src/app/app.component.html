@@ -1,69 +1,67 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-    <div class=" container justify-content-between">
-  <a class="navbar-brand" routerLink=""><img src=".././assets/images/Etsy-Logo-home.png" height="54" width ="90" ></a>
-  <div class="input-group col-sm-4">
+  <div class=" container justify-content-between">
+    <a class="navbar-brand" routerLink=""><img src=".././assets/images/Etsy-Logo-home.png" height="54" width ="90" ></a>
+    <div class="input-group col-sm-4">
 
-    <input class="form-control" id="search-bar" type="search" placeholder="Search for items or shops" aria-describedby="btnGroupAddon" aria-label="Search">
-    <div class="input-group-append">
-    <button class="btn btn-search" type="submit"><span class="btn-group-addon" id="btnGroupAddon">Search</span></button>
-  </div>
-</div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item navbar-link">
-        <a class="nav-link" id="top-nav-link" routerLink="sell">Sell on Etsy</a>
-      </li>
-      <li class="nav-item navbar-link">
-        <a class="nav-link" id="top-nav-link" routerLink="register">Register</a>
-      </li>
-      <li class="nav-item navbar-link">
-      <button class="btn btn-outline my-2 my-sm-0" routerLink="sign-in" id="nav-sign-on">Sign In</button>
-      </li>
-      <div class= "cart-link">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="cart"><img src=".././assets/images/cart-icon.png" height="24" width ="24" ><span class="badge badge-light">5</span><br><span class="text-link" id="cart-text-link">Cart</span></a>
-      </li>
+      <input class="form-control" id="search-bar" type="search" placeholder="Search for items or shops" aria-describedby="btnGroupAddon" aria-label="Search">
+      <div class="input-group-append">
+        <button class="btn btn-search" type="submit"><span class="btn-group-addon" id="btnGroupAddon">Search</span></button>
+      </div>
     </div>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item navbar-link">
+          <a class="nav-link" id="top-nav-link" routerLink="sell">Sell on Etsy</a>
+        </li>
+        <li class="nav-item navbar-link">
+          <a class="nav-link" id="top-nav-link" routerLink="register">Register</a>
+        </li>
+        <li class="nav-item navbar-link">
+          <button class="btn btn-outline my-2 my-sm-0" routerLink="sign-in" id="nav-sign-on">Sign In</button>
+        </li>
+        <div class= "cart-link">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="cart"><img src=".././assets/images/cart-icon.png" height="24" width ="24" ><span class="badge badge-light">5</span><br><span class="text-link" id="cart-text-link">Cart</span></a>
+          </li>
+        </div>
+      </ul>
+    </div>
   </div>
-</div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light">
-  <div class=" container justify-content-between">
-
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav second-nav-items">
-      <li class="nav-item active">
-        <a class="nav-link dropdown orange-hover" href="#">Jewelry & Accessories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Clothing & Shoes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Home & Living</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Wedding & Party</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Toys & Entertainment</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Art & Collectibles</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Craft Supplies & Tools</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link orange-hover" href="#">Vintage</a>
-      </li>
-    </ul>
-  </div>
+  <div class="container justify-content-between">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav second-nav-items">
+        <li class="nav-item active">
+          <a class="nav-link dropdown orange-hover" href="#">Jewelry & Accessories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Clothing & Shoes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Home & Living</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Wedding & Party</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Toys & Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Art & Collectibles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Craft Supplies & Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link orange-hover" href="#">Vintage</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
-  <div class="container">
+<div class="container">
 
-    <router-outlet></router-outlet>
-  </div>
+  <router-outlet></router-outlet>
+</div>

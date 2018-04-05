@@ -7,11 +7,45 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="./../assets/images/banner.jpg" alt="First slide">
-    </div>
+
+      <!-- <img class="d-block w-100" src="./../assets/images/banner.jpg" alt="First slide"> -->
+          <div class="hero-split">
+
+      <div class="hero-split-body height-full hero-split-40-60 right " style="background-color:#e5bbb4;">
+      					<h6>RAW JEWELRY</h6>
+      					<h4>Find the most imaginative items out there.</h4>
+                <p>SHOP ></p>
+
+      </div>
+
+
+<div class="hero-split-visuals left">
+  <img class="d-block w-100" src="./../assets/images/banner.jpg" alt="First slide">
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
     <div class="carousel-item">
+      <div class="hero-split">
+
+  <div class="hero-split-body height-full hero-split-40-60 right " style="background-color:#e5bbb4;">
+            <h6>CUSTOM MADE</h6>
+            <h4>Create somthing spectacular with a maker.</h4>
+            <p>SHOP ></p>
+
+  </div>
+
+
+<div class="hero-split-visuals left">
       <img class="d-block w-100" src="./../assets/images/banner2.jpg" alt="Second slide">
     </div>
+  </div>
 
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -24,16 +58,17 @@
   </a>
 </div>
 </div>
+</div>
 <div class="col-4">
 
 
-<div class="card card-default">
-<img class = "card-img" src="./../assets/images/pets.jpg" >
+<div class="card card-default" id="dog-card">
+<img class = "card-img" id="dog-card-img" src="./../assets/images/pets.jpg" >
 </div>
 <br>
 <div class="row">
-<div class="card card-default">
-<div class="card-body" id="pet-card">
+<div class="card card-default" id="pet-card">
+<div class="card-body">
   Cute pets needs equally cute accessories >
 </div>
 </div>
@@ -51,7 +86,7 @@
 
 <h3 class="home-heading">Popular right now</h3>
 <div class="row">
-<div *ngFor="let item of items" (click)="goToDetailPage(item)" class="card card-default col">
+<div *ngFor="let item of items" (click)="goToDetailPage(item)" class="card card-default col item-display-cards">
 
     <img class="card-img-top" src="{{item.url}}" alt="Card image cap">
 
@@ -65,42 +100,42 @@
 <br>
 <h3 class="home-heading">Shop by category</h3>
 <div class="row">
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
   <img class = "card-img-top" src="./../assets/images/home.jpg" >
   <div class="card-body">
     Home & Living
   </div>
 </div>
 
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
 <img class = "card-img-top" src="./../assets/images/jewlery.jpg" >
   <div class="card-body">
     Jewelry
   </div>
 </div>
 
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
 <img class = "card-img-top" src="./../assets/images/clothing.jpg" >
   <div class="card-body">
     Clothing
   </div>
 </div>
 
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
 <img class = "card-img-top" src="./../assets/images/toys.jpg" >
   <div class="card-body">
     Toys & Games
   </div>
 </div>
 
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
 <img class = "card-img-top" src="./../assets/images/craft.jpg" >
   <div class="card-body">
     Craft Supplies & Tools
   </div>
 </div>
 
-<div class="card card-default col">
+<div class="card card-default col item-display-cards">
 <img class = "card-img-top" src="./../assets/images/weddings.jpg" >
   <div class="card-body">
     Weddings

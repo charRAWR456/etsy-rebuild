@@ -1,3 +1,4 @@
+
 #card-shop-name{
   font-size: 10px;
 }
@@ -14,7 +15,7 @@
   text-align: center;
 }
 
-.card-default{
+.item-display-cards{
   padding: 0px;
   margin: 2px;
   padding-bottom: -2px;
@@ -26,10 +27,15 @@
 
 #pet-card{
   background-color: #e5bbb4;
+  margin-left: 10px;
 }
 
-.card-img{
-  height: 320px;
+#dog-card-img{
+  height: 210px;
+}
+
+#dog-card{
+    margin-top: 10px;
 }
 
 .etsy-promises{
@@ -37,6 +43,21 @@
   text-align: center;
 }
 
+.carousel{
+  margin-top: 10px;
+  border-radius: 2px 2px 2px 2px;
+  overflow: hidden;
+}
+
 .check{
   color: #ff6e1a;
+}
+
+.hero-split{
+  display: flex;
+}
+
+.hero-split-body{
+  padding-top: 90px;
+  text-align: center;
 }
