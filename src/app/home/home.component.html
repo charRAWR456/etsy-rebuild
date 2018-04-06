@@ -86,7 +86,7 @@
 
 <h3 class="home-heading">Popular right now</h3>
 <div class="row">
-<div *ngFor="let item of items | async" (click)="goToDetailPage(item)" class="card card-default col item-display-cards">
+<div *ngFor="let item of items | async" (click)="goToDetailPage(item)" class="card card-default col-2 item-display-cards">
 
     <img class="card-img-top" src="{{item.url}}" alt="Card image cap">
 

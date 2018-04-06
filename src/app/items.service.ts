@@ -15,11 +15,11 @@ export class ItemService {
       return this.items;
     }
 
-    getItemsById(itemId: number){
-   for (var i = 0; i <= ITEMS.length - 1; i++) {
-     if (ITEMS[i].id === itemId) {
-       return ITEMS[i];
-     }
-   }
+    addItem(newItem: Item) {
+    this.items.push(newItem);
+  }
+
+    getItemsById(itemId: string){
+ return this.database.object('items/' + itemId);
  }
 }

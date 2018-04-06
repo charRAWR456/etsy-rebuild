@@ -4,6 +4,5 @@ export class Item {
     public title: string,
     public shopName: string,
     public description: string,
-    public price: string,
-    public id: number) { }
+    public price: string) { }
 }

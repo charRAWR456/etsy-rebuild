@@ -1,7 +1,7 @@
 <div>
-  <img src="{{itemToDisplay.url}}">
-  <h3>{{itemToDisplay.title}}</h3>
-  <h4>{{itemToDisplay.shopName}}</h4>
-  <h4>{{itemToDisplay.price}}</h4>
-  <p>{{itemToDisplay.description}}</p>
+  <img src="{{(itemToDisplay | async) ?.url}}">
+  <h3>{{(itemToDisplay | async) ?.title}}</h3>
+  <h4>{{(itemToDisplay | async) ?.shopName}}</h4>
+  <h4>{{(itemToDisplay | async) ?.price}}</h4>
+  <p>{{(itemToDisplay | async) ?.description}}</p>
 </div>

@@ -12,15 +12,15 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 export class HomeComponent implements OnInit {
   items: FirebaseListObservable<any[]>;
-  
+
   constructor(private router: Router, private itemService: ItemService) { }
 
   ngOnInit() {
      this.items = this.itemService.getItems();
   }
 
-  goToDetailPage(clickedItem: Item) {
-        this.router.navigate(['items', clickedItem.id]);
+  goToDetailPage(clickedItem) {
+        this.router.navigate(['items', clickedItem.$key]);
       };
 
 }

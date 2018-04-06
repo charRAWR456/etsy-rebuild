@@ -1,3 +1,33 @@
-<p>
-  sell-on-etsy works!
-</p>
+<h3>Add New Item to Inventory</h3>
+<div>
+  <div>
+    <label>Item image URL:</label>
+    <br>
+    <input #newImage>
+  </div>
+
+  <div>
+    <label>Item Title:</label>
+    <br>
+    <input #newTitle>
+  </div>
+
+  <div>
+    <label>Shop Name:</label>
+    <br>
+    <input #newShop>
+  </div>
+
+  <div>
+    <label>Item Description:</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+
+  <div>
+    <label>Item Price:</label>
+    <br>
+    <input #newPrice>
+  </div>
+    <button (click)="submitForm(newImage.value, newTitle.value, newShop.value, newDescription.value, newPrice.value); newImage.value = ''; newTitle.value= ''; newShop.value=''; newDescription.value=''; newPrice.value=''">Add</button>
+</div>
