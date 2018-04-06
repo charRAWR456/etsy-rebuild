@@ -1,11 +1,15 @@
 import { Item } from './item.model';
 
 export const ITEMS: Item[] = [
-   new Item("./../assets/images/necklace.jpg","Sterling octopus seawater necklace", "VillaSorgenfrei","$38.90", 1),
-   new Item("./../assets/images/records.jpg","World Travel Decor", "VinylShopUS", '$99.99', 2),
-   new Item("./../assets/images/wedding.jpg","Disney wedding guest book", "WeddingGuestBook3D",'$52.93', 3),
-   new Item("./../assets/images/pens.jpg","Bean sprout gel pen", "warmpersonality",
-       '$2.00', 4),
-   new Item("./../assets/images/worldscratch.jpg","World Scratch Your Travels", "KUULYS",'$29.99', 5),
-   new Item("./../assets/images/journal.jpg","Personalized Travel Journal Trip Journal", "PleaseAndThanksCards",'$28.00', 6)
+   new Item("./../assets/images/necklace.jpg","Sterling octopus seawater necklace", "VillaSorgenfrei", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","$38.90", 1),
+
+   new Item("./../assets/images/records.jpg","World Travel Decor", "VinylShopUS","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", '$99.99', 2),
+
+   new Item("./../assets/images/wedding.jpg","Disney wedding guest book","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "WeddingGuestBook3D",'$52.93', 3),
+
+   new Item("./../assets/images/pens.jpg","Bean sprout gel pen", "warmpersonality","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", '$2.00', 4),
+
+   new Item("./../assets/images/worldscratch.jpg","World Scratch Your Travels","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "KUULYS",'$29.99', 5),
+
+   new Item("./../assets/images/journal.jpg","Personalized Travel Journal Trip Journal", "PleaseAndThanksCards","Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",'$28.00', 6)
  ];

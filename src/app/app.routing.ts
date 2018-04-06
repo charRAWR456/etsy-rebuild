@@ -16,7 +16,7 @@ const appRoutes: Routes = [
     component: CartComponent
   },
   {
-    path: 'detail',
+    path: 'items/:id',
     component: ItemDetailComponent
   },
   {
