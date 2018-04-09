@@ -9,9 +9,24 @@ This webpage is a rebuild of the "Shop, Create & Be  Inspired" website Etsy. I c
 ## Setup
 1. Make sure you have Angular, Node.js and npm installed
 2. Clone this repository
-3. Navigate to folder and type npm install in your terminal
-4. After npm install is finished, type ng serve -o
-5. this should automatically open http://localhost:4200/
+3. Open project in editor of your choice
+4. Create file src/app/api-keys.ts
+5. go to firebase to retrieve the below information
+          apiKey: "xxxx",
+          authDomain: "xxxx.firebaseapp.com",
+          databaseURL: "https://xxxx.firebaseio.com",
+          storageBucket: "xxxx.appspot.com",
+          messagingSenderId: "xxxx"
+6. paste this information in your api-key.ts
+          export var masterFirebaseConfig = {
+
+          ...
+
+          };
+7. import database file located in project folder to firebase
+8. type npm install in your terminal
+9. After npm install is finished, type ng serve -o
+10. this should automatically open http://localhost:4200/
 
 ## Known Bugs
 1. Sign in button is not functional
