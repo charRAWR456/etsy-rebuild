@@ -18,4 +18,10 @@ export class EditItemComponent implements OnInit {
   beginUpdatingItem(itemToUpdate){
       this.itemService.updateItem(itemToUpdate);
     }
+
+    beginDeletingItem(itemToDelete){
+   if(confirm("Are you sure you want to delete this item from the inventory?")){
+     this.itemService.deleteItem(itemToDelete);
+   }
+ }
 }

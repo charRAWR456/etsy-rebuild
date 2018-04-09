@@ -31,4 +31,9 @@ export class ItemService {
                               description: localUpdatedItem.description,
                             price: localUpdatedItem.price});
 }
+
+deleteItem(localItemToDelete){
+    var itemEntryInFirebase = this.getItemsById(localItemToDelete.$key);
+    itemEntryInFirebase.remove();
+  }
 }
