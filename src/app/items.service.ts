@@ -22,4 +22,13 @@ export class ItemService {
     getItemsById(itemId: string){
  return this.database.object('items/' + itemId);
  }
+
+ updateItem(localUpdatedItem){
+  var itemEntryInFirebase = this.getItemsById(localUpdatedItem.$key);
+  itemEntryInFirebase.update({url: localUpdatedItem.url,
+                             title: localUpdatedItem.title,
+                              shopName: localUpdatedItem.shopName,
+                              description: localUpdatedItem.description,
+                            price: localUpdatedItem.price});
+}
 }

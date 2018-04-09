@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { CartComponent } from './cart/cart.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { EditItemComponent } from './edit-item/edit-item.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     RegisterComponent,
     CartComponent,
     ItemDetailComponent,
-    MarketplaceComponent
+    MarketplaceComponent,
+    EditItemComponent
   ],
   imports: [
     BrowserModule,

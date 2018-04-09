@@ -1,0 +1,21 @@
+<h4>Edit Item</h4>
+
+<label>New Item URL:</label>
+<input [(ngModel)]="selectedItem.url">
+<br>
+
+<label>New Item Title:</label>
+<input [(ngModel)]="selectedItem.title">
+<br>
+
+<label>New Shop Name:</label>
+<input [(ngModel)]="selectedItem.shopName">
+<br>
+
+<label>New Item Description:</label>
+<input [(ngModel)]="selectedItem.description">
+
+<label>New Item Price:</label>
+<input [(ngModel)]="selectedItem.price">
+<button (click)="beginUpdatingItem(selectedItem)">Update</button>
+<br>
