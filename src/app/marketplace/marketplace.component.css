@@ -1,0 +1,25 @@
+
+#card-shop-name{
+  font-size: 10px;
+}
+
+#card-item-name{
+  font-size: 12px;
+}
+
+#card-item-price{
+  font-size: 12px;
+}
+
+.home-heading{
+  text-align: center;
+}
+
+.item-display-cards{
+  padding: 0px;
+  padding-bottom: -2px;
+}
+
+.card-img-top{
+  height: 150px;
+}

@@ -1,0 +1,17 @@
+<h3 class="home-heading">Popular right now</h3>
+<div class="row">
+  <div *ngFor="let item of items | async" class="card card-default col-2 item-display-cards">
+
+    <img class="card-img-top" src="{{item.url}}" alt="Card image cap">
+
+    <div class = "card-body" >
+      <p (click)="goToDetailPage(item)" id="card-item-name">{{item.title}} <br><span class="text-muted" id="card-shop-name"> {{item.shopName}}</span>
+        <br><strong><span id="card-item-price">{{item.price}}</span></strong></p>
+      </div>
+      <div *ngIf="currentRoute === '/sell'">
+        {{item.description}}
+        <hr>
+        <!-- <app-edit-item [selectedItem]="item">></app-edit-item> -->
+      </div>
+    </div>
+  </div>

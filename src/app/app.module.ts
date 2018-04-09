@@ -12,6 +12,7 @@ import { SellOnEtsyComponent } from './sell-on-etsy/sell-on-etsy.component';
 import { RegisterComponent } from './register/register.component';
 import { CartComponent } from './cart/cart.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     SellOnEtsyComponent,
     RegisterComponent,
     CartComponent,
-    ItemDetailComponent
+    ItemDetailComponent,
+    MarketplaceComponent
   ],
   imports: [
     BrowserModule,
