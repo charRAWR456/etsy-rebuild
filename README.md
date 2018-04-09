@@ -7,6 +7,10 @@
 This webpage is a rebuild of the "Shop, Create & Be  Inspired" website Etsy. I chose to rebuild this site for practice with Typescript, Bootstrap and the Angular framework for weeks thirteen and fourteen "Javascript-Angular" of Epicodus.
 
 ## Setup
+1. Go to https://etsy-rebuild.firebaseapp.com/
+
+OR
+
 1. Make sure you have Angular, Node.js and npm installed
 2. Clone this repository
 3. Open project in editor of your choice
